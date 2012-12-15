@@ -84,7 +84,7 @@ class Player
 		character.setGenome(CharacterType.HUMAN);
 		
 		playerAttacked = false;
-		level = 1;
+		level = 8;
 		kills = 0;
 		
 		stopMoving();

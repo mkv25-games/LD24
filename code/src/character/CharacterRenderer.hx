@@ -1,5 +1,5 @@
 package character;
-import flash.display.Graphics;
+import nme.display.Graphics;
 import nme.Assets;
 import nme.display.Bitmap;
 import nme.display.Sprite;
@@ -16,19 +16,19 @@ class CharacterRenderer
 	public var artwork:Sprite;
 	public var model:CharacterModel;
 	
-	private var tilesheets:Hash<CharacterTilesheet>;
+	var tilesheets:Hash<CharacterTilesheet>;
 	
-	private var head:Int = 0;
-	private var mouth:Int = 1;
-	private var torso1:Int = 2;
-	private var torso2:Int = 3;
-	private var torso3:Int = 4;
-	private var legs1:Int = 5;
-	private var legs2:Int = 6;
-	private var legs3:Int = 7;
-	private var eyes1:Int = 8;
-	private var eyes2:Int = 9;
-	private var eyes3:Int = 10;
+	var head:Int = 0;
+	var mouth:Int = 1;
+	var torso1:Int = 2;
+	var torso2:Int = 3;
+	var torso3:Int = 4;
+	var legs1:Int = 5;
+	var legs2:Int = 6;
+	var legs3:Int = 7;
+	var eyes1:Int = 8;
+	var eyes2:Int = 9;
+	var eyes3:Int = 10;
 	
 	public function new() 
 	{
